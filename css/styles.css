@@ -1,0 +1,381 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;   
+    
+}
+img{
+    width: 100%; 
+    /* all image width gives to auto 100% */
+}
+.space{
+    height: 60px;
+    width: 71%;
+    margin: auto;
+}  
+/* for space between div horizontally */
+body{
+    font-family: BarrGraebenbach , Helvetica;
+   
+}
+
+nav{
+    height: 47px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.menuText{
+    color: aliceblue;
+    font-weight: 600;
+}
+.navButton{
+    font: 14px;
+    font-weight: 600;
+    height: 14px;
+    width: 84px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+.navButton:hover{
+    opacity: .5;
+
+}
+nav >div{
+    
+    height: 80%;
+    padding-top: 15px;
+    
+}
+.logo{
+    padding-left: 20px;
+    
+    
+}
+.logo >img{
+    height: 70%;  
+    cursor: pointer; 
+    
+}
+.middle{
+    padding-left: 35%;
+    
+}
+.menuText{  
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+li >img{
+    height:15px;
+    width: 16px;
+}
+.right{
+   padding-left: 2%;
+   padding-bottom: 5px;
+   margin-bottom: 5px;
+}
+/* <!-- navigation ended
+    main section started --> */
+
+.homePicture{
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    position: relative;
+}
+.barrCenterLogo{
+    position: absolute;
+    top: 238px;
+    left: 446px;
+    width: 338px;
+    
+}
+.backgroundImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*********************************/
+.center_Section_Top{  
+    width: 71%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+/*************************************/
+.top_left{
+    height: 100%;
+    flex: 66%;
+}
+
+.street-view, .lake-view{
+    width: 100%;
+}
+
+.text-sec-middle-top-left > p{
+    padding-left: 83px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    
+    font-size: 17px;
+    color: RGB(102, 102, 102);
+    line-height: 32px;
+    font-weight: 300; 
+
+}
+.text-sec-middle-top-left > h2{
+    text-align: end;
+    color: RGB(158, 82, 36);
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 300; 
+    padding-bottom: 35px;
+
+}
+
+.margin_h{
+    height: 100%;
+    flex: 5%;
+}
+
+/**************************************/
+.top_right{
+    height: 100%;
+    flex: 30%;
+}
+.top_right > div > div{
+    color: RGB(102, 102, 102);
+    font-size: 10px;
+    line-height: 21px;
+    font-weight: 400;
+    padding-bottom: 11px;
+}
+.top_right > div > h2{
+    color: RGB(51, 51, 51);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.top_right > div > p{
+    color: RGB(102, 102, 102);
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 500;
+    padding-bottom: 11px;
+}
+.hori-ruler{
+    width: 60%;
+    background-color: #000000;
+    border: none;
+    height: 5px;
+    
+}
+.seeMenu{
+    color: #000000;
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 500;
+    padding-bottom: 11px;
+}
+.img1{
+    margin-top:  50px;
+    margin-bottom: 20px;
+}
+/* <!-- main section ended
+    middle image started --> */
+.image_mid_section{
+    margin: auto;
+    height: 680px;
+    width: 71%;
+}
+.image_mid_section-p{
+    position: absolute;
+    top: 56px;
+    right: 10%;
+    font-size: 10px;
+    font-weight: 400;
+    
+}
+
+/* <!-- middle image section ended
+    bottom_main_section started --> */
+
+.bottom_main_section{
+    width: 71%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bottom_left{
+    height: 100%;
+    flex: 65%;
+}
+
+.bottom_right{
+    height: 100%;
+    flex: 30%;
+}
+.bottom_left > div > p{
+    color: RGB(102, 102, 102);
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.Right-images{
+    margin-bottom: 20px;
+}
+
+/* <!--bottom_main_section ended
+    timing_horixontal section started --> */
+
+.timing_horixontal_section{
+    width: 71%;
+    height: 188px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.size-xl{
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #333333;
+
+}
+.size-xxl{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #333333;
+    
+
+}
+
+.pattern{
+    height: 100%;
+}
+/***********************timing_horixontal section ended
+    newsletter section started *********************8**/
+
+.newsLetter_section{
+    width: 100%;
+    height: 271px;
+    background-color: rgb(234,227,221);
+    margin: auto;
+}
+.newsLetter_section-table{
+    width: 71%;
+    margin: auto;
+    text-align: center;
+}
+.n-LHead{
+    font-size: 40px;
+    font-weight: 500px;
+    line-height: 44px;
+    padding-top: 40px;
+}
+.n-Lp{
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.n-Lcheckbox{
+    font-size: 8px;
+    font-weight: 500px;
+    line-height: 13px;
+    width: 10px;
+    
+}
+.n-L_input{
+    height: 30px;
+    width: 148px;
+    font-size: 13px;
+    font-weight: 400px;
+    padding-left: 5px;
+    border: none;
+    background-color: rgb(204,200,196);
+    
+
+}
+.n-L_button{
+    
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+    font-weight: 500px;
+    border: none;
+    background-color: rgb(126,122,119);
+    color: white;
+    cursor: pointer;    
+    
+}
+.n-L_button:hover{
+    opacity: .8;
+}
+
+
+
+    /* newsletter section ended********************
+    *********************footer section started  */
+
+footer{
+    width: 100%;
+    height: 263px;
+    background-color:rgb(254,247,239);
+    position: relative;
+    
+
+}
+.footer-flex{
+    position: absolute;
+    top: 50px;
+    left: 14.5%;
+    right: 14.5%;
+
+    width: 71%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-flex > div{
+    width: 140px;
+    
+}
+li{
+    list-style-type: none;
+  color: #000000;
+  font-size: 10px;
+  font-weight:400;
+  line-height: 21px;
+}
+.hd{
+    font-weight: 700;
+}
+
+i{
+    padding: 5px;
+    opacity: .5;
+    cursor: pointer;
+}
+i:hover{
+    opacity: 1;
+}
